@@ -61,7 +61,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <buildNumber>${user.name}-${maven.build.timestamp}</buildNumber>
 
-        <jackson.version>2.7.0</jackson.version>
+        <jackson.version>2.12.7.1</jackson.version>
 
         <!-- Optional Runtime Dependencies: -->
         <bouncycastle.version>1.51</bouncycastle.version>
@@ -213,7 +213,7 @@
                 <version>1.5</version>
                 <configuration>
                     <providerSelection>2.0</providerSelection>
-                    <source />
+                    <source/>
                 </configuration>
                 <executions>
                     <execution>
